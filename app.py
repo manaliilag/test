@@ -23,5 +23,6 @@ def input_req1():
     return f"you ask information about {data} ."
 
 
+# localhost
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
