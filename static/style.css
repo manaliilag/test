@@ -1,0 +1,19 @@
+.table-users {
+  /* Add the centering styles here based on your preference */
+  /* Example: Using Flexbox to center horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* Optional: Add more styles specific to your content */
+  width: 600px;
+  height: 600px;
+  border: 1px solid #ccc;
+  background-color:#91ced4;
+  border: 3px solid green;
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME SWEET HOME</title>
+</head>
+<body style="background-color:#91ced4;">
+<h1 style="text-align: center">CALCULATOR</h1>
+<form action="/cal" method="POST" style="text-align: center">
+    <label for="maths">Choose operation:</label>
+    <select name="maths" id="maths">
+        <option value="addition">Addition</option>
+        <option value="subtraction">Subtraction</option>
+        <option value="multiplication">Multiplication</option>
+        <option value="division">Division</option>
+        <option value="power">Power</option>
+    </select>
+    <br><br>
+    <br><br>
+    <label for="num1">Enter First Number (between 1 and 9):</label>
+    <input type="number" id="num1" name="num1" min="1" >
+    <br><br>
+    <label for="num2">Enter Second Number (between 1 and 9):</label>
+    <input type="number" id="num2" name="num2" min="1" >
+    <br><br>
+    <input type="submit" value="Calculate">
+</form>
+</body>
+</html>
